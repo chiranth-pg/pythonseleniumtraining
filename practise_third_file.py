@@ -1,0 +1,2 @@
+a="Arha"
+print(a)
