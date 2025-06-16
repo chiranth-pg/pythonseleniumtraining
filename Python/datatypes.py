@@ -40,11 +40,49 @@ print("___________________enf of float____________________")
 
 #Sequential data type
 
-String
+#String
 '''
 string is immutable data type
 string follows the positive and negative indexing
 we can store any long raw data as string
 
 '''
+
+'''
+properties of list
+list is mutable data type, we can modify the list at any point of time
+list follows the similar positive and negative indexing as like string
+all type of data ca store in the list, like, int, flot, string boolean, dict, list, tuple set
+if we compare list and tuple, the nlist is a bit slower than tuple
+'''
+
+'''
+tuple is immutable data type, we cannt modify once it is defined
+tuple follows the positive nad negative indexing 
+all type of data can be part of the tuple - int,float,string,list,tuple.dict,set,boolean
+tuple is faster then list to access the data
+tuple=(3,4,5,[3,5,6], (1,2,3), True, 'Arha')
+'''
+
+'''
+#_______Dictionary______
+dict1={'name': 'Arha', 'age': 7}
+        key      value
+dict is mutable data type, we can modify it any point of time
+all keys should be unique in the dict, duplicate keys are not allowed
+only imutable data type can key in the dic like int, float, string, tuple, boolean
+we can set all type of data as dict vaue int, float, string, list, tuple, set, boolean
+dict doesnt follow any indexing, it stores the data in unstructural
+'''
+dict1={'name': 'Arha', 'age': 7}
+print(dict1, type(dict1))
+dict1['email']='arhabc@gmail.com'
+print(dict1)
+
+#ways of defining dictionay
+dict2={}
+dict3[3]=[5,6,7]
+dict4['hello']={'name',:'arha','age':25}
+dict5[(2,4,5)]="python programing"
+
 
