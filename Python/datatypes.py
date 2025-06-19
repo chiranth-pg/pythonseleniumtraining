@@ -86,3 +86,18 @@ dict4['hello']={'name',:'arha','age':25}
 dict5[(2,4,5)]="python programing"
 
 
+'''
+properties of set
+
+-- set is mutable data type, we can modify the data at any point of time
+-- set only store unique data, duplicate data is not allowed
+-- all the immutable data type can member of set, int, string, float, tuple, boolean
+-- any mutable data type can not be a member of set eg list, dict and set
+-- set store the data in random, it does not follow any indexing
+
+
+
+
+'''
+
+
