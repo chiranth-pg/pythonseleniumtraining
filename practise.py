@@ -1,12 +1,10 @@
-#(a+b)2 = a2+b2+2ab
+l1="hello"
 
+l2=list(l1)
 
-a=2
-b=4
+#print(l2)
 
-lhs=(2+4)**2
-
-rhs=2**2+4**2+2*2*4
-
-print(lhs)
-print(rhs)
+l2.append("hellloooeoeoo")
+l3=list(l2)
+#print(l2)
+print(l3,l3[2])
