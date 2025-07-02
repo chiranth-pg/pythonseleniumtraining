@@ -1,3 +1,8 @@
-Input :("SQATools")
+user_input= input("Enter the password:    ")
 
-print(" Input " *5)
+correct_password = "Arha"
+
+if user_input == correct_password:
+    print("Entered password is correct")
+else:
+    print("you have entered wrong passeord ")
