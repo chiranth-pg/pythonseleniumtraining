@@ -16,6 +16,8 @@ print(str.islower())
 print(str.isupper())
 print(str.swapcase())
 print(str.title())
+print(str.istitle())
+
 '''
 
 for i in range(0,4):
