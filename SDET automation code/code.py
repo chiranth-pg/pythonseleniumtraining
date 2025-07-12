@@ -471,7 +471,7 @@ s="welcome"
 # print(s1) # String in python
 #
 # s2=s.title()
-# print(s2) #String In Python
+# print(s2) #String In Python-grotechmind
 #
 # s3=s.lower()
 # print(s3) #string in python
